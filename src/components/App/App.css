@@ -1,0 +1,15 @@
+.container {
+  max-width: 1010px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 13px 35px 40px;
+  min-height: 100vh;
+}
+
+.ant-tabs-top > .ant-tabs-nav::before {
+  display: none;
+}
+
+.ant-tabs-nav-list {
+  border-bottom: 1px solid #e5e5e5;
+}
