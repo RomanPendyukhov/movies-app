@@ -5,6 +5,7 @@
 }
 
 .ant-card-body {
+  cursor: default;
   padding: 0;
   display: grid;
   height: 100%;
@@ -32,7 +33,8 @@ h3.ant-typography {
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 0px;
-  align-self: end;
+  margin-top: 12px;
+  align-self: center;
 }
 
 span.ant-typography {
@@ -76,10 +78,10 @@ div.ant-typography {
 .rating {
   grid-area: rate;
   align-self: center;
+  margin-top: 12px;
   font-size: 12px;
   height: 38px;
   padding: 8px;
-  margin-top: 8px;
   border: 2px black solid;
   border-radius: 50%;
 }

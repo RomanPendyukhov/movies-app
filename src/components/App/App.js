@@ -3,7 +3,7 @@ import { Layout, Tabs, Row } from 'antd';
 
 import './App.css';
 import Page from '../Page';
-import MovieService from '../services/MovieService';
+import MovieService from '../../services/MovieService';
 import { Provider } from '../context';
 
 const { TabPane } = Tabs;

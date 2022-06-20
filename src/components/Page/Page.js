@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { Col, Alert, Pagination } from 'antd';
 
-import MovieService from '../services/MovieService';
+import MovieService from '../../services/MovieService';
 import MovieCard from '../MovieCard';
 import MovieSearch from '../MovieSearch';
 import ErrorAlert from '../ErrorAlert';
